@@ -1,0 +1,137 @@
+
+Ì1Ç
+	/host:CPU1èB
+
+tf_ComputeèBéB
+
+tf_ComputeéBêB
+
+tf_ComputeêBëB
+
+tf_ComputeëB%Î’B
+tf_data_iterator_get_nextÎ’B%Ğ’B
+tf_data_iterator_resourceĞ’B
+ÕùAÕùA"`1Ğ’BMIterator::Model::ParallelMap::Zip[0]::FlatMap[0]::Concatenate[0]::TensorSliceH€ÀßÅP€›î"P1Ğ’B=Iterator::Model::ParallelMap::Zip[0]::FlatMap[0]::ConcatenateH€Ğ¿ÀPÀìÏ&"@1Ğ’B-Iterator::Model::ParallelMap::Zip[0]::FlatMapH€ÀPÀõÉ'"Q1Ğ’B?Iterator::Model::ParallelMap::Zip[1]::ForeverRepeat::FromTensorH€ƒéPÀ„="Q1Ğ’B?Iterator::Model::ParallelMap::Zip[1]::ForeverRepeat::FromTensorH€°„óPÀ„="F1Ğ’B3Iterator::Model::ParallelMap::Zip[1]::ForeverRepeatH€ĞÄèP€ì¸"41Ğ’B!Iterator::Model::ParallelMap::ZipH€ Õ¾PÀüğ5"U1Ğ’B&InstantiatedCapturedFunction::RunAsyncH€àâøPÀÃ“Z
+id-4352012076994532666"T1èBExecutorState::ProcessH€°õúP€§é,Z
+iter_num0Z
+id-5651198096252086982"H1èB6sequential/dense/BiasAdd/ReadVariableOp:ReadVariableOpH€º­P€‰z"T1èBExecutorState::ProcessH€Ğû¬PÀ–±Z
+iter_num0Z
+id-5651198096252086982"1èBAdam/Pow:PowH€ğö¸P€¤è"T1èBExecutorState::ProcessH€°¸¸PÀº™Z
+id-5651198096252086982Z
+iter_num0"%1èBGatherV2:GatherV2H€ âPÀ°ƒÃ"U1èBExecutorState::ProcessH€ åŒPÀŠÈÌZ
+iter_num0Z
+id-4352012076994532666"C1èBExecutorDoneCallbackH€à­ÚPÀÌZ
+id-4352012076994532666"11èBloss/activation_2_loss/Sum:SumH€€½Ÿ^P€›î"71èB%loss/activation_2_loss/value:DivNoNanH€ğß£^PÀ„="T1èBExecutorState::ProcessH€Àş^P€¶ÜZ
+id-5651198096252086982Z
+iter_num0"*1èBBiasAddGrad:BiasAddGradH€À¿³^PÀŸ«"I1èB6Adam/Adam/update_7/ResourceApplyAdam:ResourceApplyAdamH€°â·^PÀÕ‡	"T1èBExecutorState::ProcessH€€³^PÀ‹äZ
+id-5651198096252086982Z
+iter_num0"#1èBMatMul_3:MatMulH€€ÎÃ^PÀ¾¶"J1èB6Adam/Adam/update_4/ResourceApplyAdam:ResourceApplyAdamH€€ÒıfPÀ“æµ"U1èBExecutorState::ProcessH€ŸÃ^PÀÂì÷Z
+id-5651198096252086982Z
+iter_num0"<1èB'Conv2DBackpropInput:Conv2DBackpropInputH€ ëÏvPÀüİ¥¼".1èBMaxPoolGrad_1:MaxPoolGradH€àßû²P€«ô¬w"(1èBReluGrad_1:ReluGradH€îı«P€³âƒ".1èBBiasAddGrad_3:BiasAddGradH€àäíÁP€×‚·"J1èB6Adam/Adam/update_1/ResourceApplyAdam:ResourceApplyAdamH€ÀØ¨ÈPÀ‚ê"V1èBExecutorState::ProcessH€ îÎvPÀ‰ƒéÑZ
+iter_num0Z
+id-5651198096252086982":1éB'Adam/Cast/ReadVariableOp:ReadVariableOpH€ü—P€¤è"T1éBExecutorState::ProcessH€‚–P€ş¬Z
+id-5651198096252086982Z
+iter_num0";1éB)Adam/Cast_2/ReadVariableOp:ReadVariableOpH€ğ²¥P€‰z"T1éBExecutorState::ProcessH€°ô¤P€’ôZ
+iter_num0Z
+id-5651198096252086982"H1éB6sequential/conv2d/Conv2D/ReadVariableOp:ReadVariableOpH€àÛ§P€‰z"T1éBExecutorState::ProcessH€ §P€’ôZ
+id-5651198096252086982Z
+iter_num0";1éB)Adam/Cast_3/ReadVariableOp:ReadVariableOpH€ÃªPÀ„="T1éBExecutorState::ProcessH€ ”ªP€’ôZ
+iter_num0Z
+id-5651198096252086982"41éB"Adam/ReadVariableOp:ReadVariableOpH€Ğø­P€‰z"!1éBAdam/add:AddV2H€€ã¯PÀ¨¥"#1éBAdam/Cast_1:CastH€°Ä´P€’ô"!1éBAdam/Pow_1:PowH€à¢ºP€’ô"T1éBExecutorState::ProcessH€º­P€™›Z
+iter_num0Z
+id-5651198096252086982"1éB	Cast:CastH€ÀáîPÀúC"T1éBExecutorState::ProcessH€ÀäíP€¾±JZ
+id-5651198096252086982Z
+iter_num0";1éB'sequential/activation/Relu:_FusedConv2DH€¹P€ÉÄ»"<1éB(sequential/max_pooling2d/MaxPool:MaxPoolH€€³ú%P€¦ƒÇ"U1éBExecutorState::ProcessH€ Ş¸P€£Ñ•Z
+id-5651198096252086982Z
+iter_num0":1éB'sequential/activation_2/Softmax:SoftmaxH€Ğ „^PÀŞ
+"11éBmetrics/accuracy/ArgMax:ArgMaxH€°İ^P€›î"/1éBmetrics/accuracy/Cast_1:CastH€àÁ“^P€’ô"/1éBmetrics/accuracy/Equal:EqualH€©–^PÀ·".1éBmetrics/accuracy/Cast_2:CastH€ ™^P€‰z".1éBmetrics/accuracy/Cast_3:CastH€°ª ^P€‰z"T1éBExecutorState::ProcessH€å‚^P€©¼Z
+id-5651198096252086982Z
+iter_num0"K1éB9metrics/accuracy/div_no_nan/ReadVariableOp:ReadVariableOpH€ĞŸ®^P€‰z"T1éBExecutorState::ProcessH€á­^PÀ–±Z
+id-5651198096252086982Z
+iter_num0""1éBMatMul_1:MatMulH€€‡±^PÀº™"I1éB6Adam/Adam/update_6/ResourceApplyAdam:ResourceApplyAdamH€ ‹º^P€½ƒ"T1éBExecutorState::ProcessH€ÀÈ°^P€²¶ Z
+id-5651198096252086982Z
+iter_num0"J1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€°‹Ö
+PÀ„="F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€€ôâ
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€À¯ä
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€€îä
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€€ëå
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€À©æ
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€ğ–ç
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€ğ“è
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€°Òè
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€ğé
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€°Ïé
+"J1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€ğê
+PÀ„="J1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€°Ìê
+PÀ„="F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€°Éë
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€à¶ì
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€ õì
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€à³í
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€ òí
+"J1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€à°î
+PÀ„="F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€à­ï
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€ ìï
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€àªğ
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€ĞÙğ
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€˜ñ
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€ĞÖñ
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€ĞÓò
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€’ó
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€ĞĞó
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€ô
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€ĞÍô
+"F1ÕùA8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyH€Œõ
+"21ÕùAEagerCopyToDeviceAndAddCacheKeyH€°‘Ô
+P€»°!"/1ÕùAValidateInputTypeAndPlacementH€Àùõ
+PÀ„="j1ÕùAFunctionRunH€°–ü
+P€ƒÔêãZ
+id-5651198096252086982Z,
+name$__inference_distributed_function_853"'1ÕùAEagerKernelExecuteH€€²ø
+P€İ˜ôã"L1ÕùA7EagerLocalExecute: __inference_distributed_function_853H€°”Ó
+PÀíĞä"G1ÕùA2EagerExecute: __inference_distributed_function_853H€°—Ò
+P€û‡ ä"*1ÕùATFE_DeleteTensorHandleH€ ×£ğP€’ô")1ÕùATFE_DeleteTensorHandleH€Ğ¾¦ğP€‰z")1ÕùATFE_DeleteTensorHandleH€Ğ»§ğP€‰z"01ÕùAValidateInputTypeAndPlacementH€ĞáñPÀ„=";1ÕùA'AssignAddVariableOp:AssignAddVariableOpH€À§äñP€›î"&1ÕùAEagerKernelExecuteH€½âñPÀ±Ÿ":1ÕùA&EagerLocalExecute: AssignAddVariableOpH€ÆßñPÀÌ"51ÕùA!EagerExecute: AssignAddVariableOpH€ÌİñP€ã¾
+",1ÕùATFE_Py_FastPathExecute_CH€ğÇÔñP€Æı")1ÕùATFE_DeleteTensorHandleH€ğ‚ëñPÀ„=",1ÕùAValidateInputTypeAndPlacementH€ÀæÌò"11ÕùAReadVariableOp:ReadVariableOpH€ğĞÎòPÀ·"&1ÕùAEagerKernelExecuteH€ğÓÍòP€›î"51ÕùA!EagerLocalExecute: ReadVariableOpH€€¨ÌòP€­â"01ÕùAEagerExecute: ReadVariableOpH€€«ËòP€¶Ü",1ÕùATFE_Py_FastPathExecute_CH€ĞÒÃòP€‡§",1ÕùAValidateInputTypeAndPlacementH€°‹úò"$1ÕùAIdentity:IdentityH€°ˆûòPÀ„="&1ÕùAEagerKernelExecuteH€ğÉúòPÀ·"/1ÕùAEagerLocalExecute: IdentityH€°ÍäòPÀÜ®"*1ÕùAEagerExecute: IdentityH€ğäòPÀå¨",1ÕùATFE_Py_FastPathExecute_CH€€æáòP€…Ô")1ÕùATFE_DeleteTensorHandleH€ «ÿòPÀ„=")1ÕùATFE_DeleteTensorHandleH€Ğ‰…óPÀ„=")1ÕùATFE_DeleteTensorHandleH€ÀÌüP€‰z")1ÕùATFE_DeleteTensorHandleH€ÀË·üPÀ„=")1ÕùATFE_DeleteTensorHandleH€€‡¹üPÀ„="01ÕùAValidateInputTypeAndPlacementH€°ë¼üPÀ„=")1ÕùALogicalAnd:LogicalAndH€àÏÀüPÀŸ«"&1ÕùAEagerKernelExecuteH€ğ¦¾üPÀÃ“"11ÕùAEagerLocalExecute: LogicalAndH€°î»üP€ÚÄ	",1ÕùAEagerExecute: LogicalAndH€ÀÂºüP€ì¸",1ÕùATFE_Py_FastPathExecute_CH€à…¯üP€êå",1ÕùAValidateInputTypeAndPlacementH€Àõü"$1ÕùAIdentity:IdentityH€€ÊöüPÀ„="&1ÕùAEagerKernelExecuteH€€ÍõüPÀ–±"/1ÕùAEagerLocalExecute: IdentityH€À‘ôüP€¤è"*1ÕùAEagerExecute: IdentityH€€ÓóüPÀ¨¥",1ÕùATFE_Py_FastPathExecute_CH€àÅíüPÀğõ",1ÕùATFE_Py_FastPathExecute_CH€ ÑşüP€­â")1ÕùATFE_DeleteTensorHandleH€°ú´ıPÀ„=")1ÕùATFE_DeleteTensorHandleH€À•ÆıPÀ„=")1ÕùATFE_DeleteTensorHandleH€øÔıPÀ„=",1ÕùAValidateInputTypeAndPlacementH€ ™äı"-1ÕùAWriteSummary:WriteSummaryH€àÑæıP€ÑÊ"&1ÕùAEagerKernelExecuteH€à×äıP€ì¸"31ÕùAEagerLocalExecute: WriteSummaryH€ œãıP€ş¬".1ÕùAEagerExecute: WriteSummaryH€ğ®âıP€‡§"*1ÕùATFE_DeleteTensorHandleH€ğûòıPÀ·")1ÕùATFE_DeleteTensorHandleH€ğòõıPÀ„=")1ÕùATFE_DeleteTensorHandleH€ğïöıP€‰z")1ÕùATFE_DeleteTensorHandleH€ÀÒ…şP€‰z")1ÕùATFE_DeleteTensorHandleH€°ş†şPÀ„=")1ÕùATFE_DeleteTensorHandleH€Ğó”şP€‰z"%1ÕùATFE_DeleteTensorHandleH€ÀŸ–ş"21êBIteratorGetNext:IteratorGetNextH€ö™P€­â"T1êBExecutorState::ProcessH€Ğº˜P€ã¾
+Z
+id-5651198096252086982Z
+iter_num0"H1êB5sequential/dense/MatMul/ReadVariableOp:ReadVariableOpH€ğµ¤PÀ–±"T1êBExecutorState::ProcessH€°÷£PÀŸ«Z
+id-5651198096252086982Z
+iter_num0"J1êB8sequential/dense_1/BiasAdd/ReadVariableOp:ReadVariableOpH€àØ¨P€‰z"T1êBExecutorState::ProcessH€ š¨P€’ôZ
+id-5651198096252086982Z
+iter_num0"K1êB9sequential/conv2d_1/BiasAdd/ReadVariableOp:ReadVariableOpH€À«PÀ„="T1êBExecutorState::ProcessH€Ğ«PÀ·Z
+id-5651198096252086982Z
+iter_num0"I1êB7sequential/dense_1/MatMul/ReadVariableOp:ReadVariableOpH€º­PÀ„="T1êBExecutorState::ProcessH€Ğû¬PÀ·Z
+iter_num0Z
+id-5651198096252086982"J1êB8sequential/conv2d_1/Conv2D/ReadVariableOp:ReadVariableOpH€€ã¯P€‰z"T1êBExecutorState::ProcessH€´¯PÀ·Z
+id-5651198096252086982Z
+iter_num0"31êB loss/activation_2_loss/Cast:CastH€àâøP€’ô"T1êBExecutorState::ProcessH€ ¤øPÀŞ
+Z
+id-5651198096252086982Z
+iter_num0"q1êB^loss/activation_2_loss/ArithmeticOptimizer/ReorderCastLikeAndValuePreserving_int64_Cast_1:CastH€€áƒPÀ·"T1êBExecutorState::ProcessH€À¢ƒPÀ–±Z
+iter_num0Z
+id-5651198096252086982"=1êB)sequential/activation_1/Relu:_FusedConv2DH€°ÙĞ-P€ˆá¿*">1êB*sequential/max_pooling2d_1/MaxPool:MaxPoolH€Ğ£•XPÀÃ®õ"91êB%sequential/dense/BiasAdd:_FusedMatMulH€Ç•[P€Ÿ¯Ö":1êB'sequential/dense_1/BiasAdd:_FusedMatMulH€Ğßï]PÀÌ"D1êB1loss/activation_2_loss/strided_slice:StridedSliceH€àƒş]P€¤è">1êB+loss/activation_2_loss/Reshape_1/shape:PackH€Ğ¦‚^PÀ¨¥"–1êB‚loss/activation_2_loss/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits:SparseSoftmaxCrossEntropyWithLogitsH€€ÿ‰^P€õ²"U1êBExecutorState::ProcessH€°ßÎ-P€åÜÎ0Z
+id-5651198096252086982Z
+iter_num0"?1êB-loss/activation_2_loss/num_elements/Cast:CastH€€½Ÿ^P€‰z"&1êBdiv_no_nan:DivNoNanH€°§¡^PÀ·"1êBTile_1:TileH€°¤^PÀ–±"1êB	mul_4:MulH€ ¾©^P€­â" 1êBMatMul:MatMulH€€‡±^PÀ¨¥",1êBBiasAddGrad_1:BiasAddGradH€°å¶^P€¤è"I1êB6Adam/Adam/update_5/ResourceApplyAdam:ResourceApplyAdamH€àÆ»^PÀº™"T1êBExecutorState::ProcessH€Àş^P€Ö$Z
+id-5651198096252086982Z
+iter_num0">1êB)Conv2DBackpropFilter:Conv2DBackpropFilterH€àäævPÀüËº´"K1êB6Adam/Adam/update_2/ResourceApplyAdam:ResourceApplyAdamH€ ü°°PÀ›²€"V1êBExecutorState::ProcessH€àíãvP€§§ğ¾Z
+id-5651198096252086982Z
+iter_num0"@1êB+Conv2DBackpropFilter_1:Conv2DBackpropFilterH€àØñÁP€³Ÿ‡""H1êB4Adam/Adam/update/ResourceApplyAdam:ResourceApplyAdamH€àöàíP€û´^"E1êB1Adam/Adam/AssignAddVariableOp:AssignAddVariableOpH€àÁÅîPÀ–±"V1êBExecutorState::ProcessH€ ğÁPÀ±İ,Z
+iter_num0Z
+id-5651198096252086982"[1êBGArithmeticOptimizer/ReorderCastLikeAndValuePreserving_int64_Cast_1:CastH€€ÃÏîPÀ–±"U1êBExecutorState::ProcessH€À„ÏîP€ÈĞZ
+id-5651198096252086982Z
+iter_num0"D1êBExecutorDoneCallbackH€ Ê×îP€ÈĞZ
+id-5651198096252086982"J1ëB7sequential/conv2d/BiasAdd/ReadVariableOp:ReadVariableOpH€€œP€áë"T1ëBExecutorState::ProcessH€€ŸœPÀƒ˜DZ
+iter_num0Z
+id-5651198096252086982"-1ëBstrided_slice:StridedSliceH€Ğ¸ìPÀ¨¥"T1ëBExecutorState::ProcessH€ƒéPÀÕ‡	Z
+id-5651198096252086982Z
+iter_num0"&1ëBGatherV2_1:GatherV2H€ âPÀ¨¥"T1ëBExecutorState::ProcessH€€Ş„PÀØZ
+id-4352012076994532666Z
+iter_num0"+1ëBmetrics/accuracy/Sum:SumH€ğß£^P€›î"K1ëB8metrics/accuracy/AssignAddVariableOp:AssignAddVariableOpH€à‚¨^P€›î"L1ëB:metrics/accuracy/AssignAddVariableOp_1:AssignAddVariableOpH€ç«^PÀ„="M1ëB;metrics/accuracy/div_no_nan/ReadVariableOp_1:ReadVariableOpH€ÀË¯^PÀ„="71ëB$metrics/accuracy/div_no_nan:DivNoNanH€€‡±^PÀ·"T1ëBExecutorState::ProcessH€°¡£^P€¡Z
+iter_num0Z
+id-5651198096252086982"#1ëBMatMul_2:MatMulH€°å¶^P€¸€Ã"+1ëBMaxPoolGrad:MaxPoolGradH€°¶gP€Ê†¹
+"%1ëBReluGrad:ReluGradH€€¾¶rPÀö‰Ò"-1ëBBiasAddGrad_2:BiasAddGradH€ğƒÍvP€ô¨¾"I1ëB6Adam/Adam/update_3/ResourceApplyAdam:ResourceApplyAdamH€àÅ‘zPÀ¸Æ"U1ëBExecutorState::ProcessH€ğ¦¶^PÀ‰–ğZ
+iter_num0Z
+id-5651198096252086982"d1Î’BIterator::Model::ParallelMapH€º­PÀçû
+Z
+deterministic1Z
+autotune1Z
+parallelism4""1Î’BIterator::ModelH€À«P€œœ9
